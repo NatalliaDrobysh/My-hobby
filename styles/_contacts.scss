@@ -1,0 +1,11 @@
+.contacts {
+    background-color: rgba(25, 27, 50, .7);
+    text-align: center;
+    
+
+    &__title {
+        font-size: 2rem;
+        color: azure;
+        padding: 10px 0;
+    }
+}

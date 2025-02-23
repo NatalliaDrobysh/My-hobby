@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 25px;
+}
+
+.header {
+  background-color: rgba(48, 57, 141, 0.5);
+  text-align: center;
+}
+.header__title {
+  font-size: 2.5rem;
+  color: azure;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about-me {
+  background-color: rgba(96, 102, 150, 0.5);
+  text-align: center;
+}
+.about-me__text {
+  display: inline-block;
+  width: 600px;
+  padding: 10px 0;
+}
+.about-me__image {
+  margin-top: 5px;
+}
+.about-me__image img {
+  width: 300px;
+  border: 4px solid white;
+}
+
+.my-hobby {
+  background-color: rgba(34, 37, 81, 0.5);
+  text-align: center;
+}
+.my-hobby__title {
+  font-size: 2rem;
+  color: azure;
+  padding: 20px 0;
+}
+
+.dance__university {
+  padding: 10px 60px;
+}
+.dance__university-image {
+  width: 700px;
+  border: 4px solid white;
+}
+.dance__home {
+  padding: 10px 60px;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pictures__item {
+  width: calc((100% - 10px) / 3);
+}
+.pictures__item:not(:last-child) {
+  margin-right: 10px;
+}
+.pictures__item:last-child {
+  margin-top: 10px;
+}
+.pictures__item img {
+  width: 100%;
+  height: 100%;
+  border: 4px solid white;
+}
+
+.singing__text {
+  padding: 10px 60px;
+}
+.singing__image {
+  width: 500px;
+  border: 4px solid white;
+}
+
+.contacts {
+  background-color: rgba(25, 27, 50, 0.7);
+  text-align: center;
+}
+.contacts__title {
+  font-size: 2rem;
+  color: azure;
+  padding: 10px 0;
+}
+
+.socials-links__item {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FFF;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.socials-links__item:first-child {
+  margin-right: 10px;
+}
+.socials-links__item:hover {
+  transform: scale(1.5);
+  transition-duration: 0.8s;
+}/*# sourceMappingURL=style.css.map */

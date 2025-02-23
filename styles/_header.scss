@@ -1,0 +1,11 @@
+.header {
+    background-color: rgba(48, 57, 141, .5);
+    text-align: center;
+    &__title {
+        font-size: 2.5rem;
+        color: azure;
+        
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

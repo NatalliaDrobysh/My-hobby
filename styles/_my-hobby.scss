@@ -1,0 +1,10 @@
+.my-hobby {
+    background-color: rgba(34, 37, 81, .5);
+    text-align: center;
+
+    &__title {
+        font-size: 2rem;
+        color: azure;
+        padding: 20px 0;
+    }
+}
